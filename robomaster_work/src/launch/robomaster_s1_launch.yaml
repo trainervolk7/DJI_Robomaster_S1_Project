@@ -1,0 +1,11 @@
+launch:
+
+- node:
+    pkg: "robomaster_s1"
+    exec: "ros2_ps5controller"
+    name: "controller"
+
+- node:
+    pkg: "robomaster_s1"
+    exec: "ros2_robot"
+    name: "robot"
